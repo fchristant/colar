@@ -25,7 +25,7 @@
         </Component>
         <Component :is="theme == 'light' ? 'span' : 'button'"
                    class="btn" :class="{'active' : theme == 'light'}"
-                   :title="theme == 'light' ? null : 'Select dark color scheme'"
+                   :title="theme == 'light' ? null : 'Select light color scheme'"
                    @click="setTheme('light')"
         >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
