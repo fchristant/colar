@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-gray-1 text-gray-11;
+    @apply dark:bg-gray-12 dark:text-gray-0;
+}
+
+header {
+    @apply p-2 border-b flex justify-center gap-2;
+    @apply border-gray-4;
+    @apply dark:border-gray-8;
+}
+
+.btn {
+    @apply border p-0.5 rounded;
+}
+
+.btn.active, .btn:hover {
+    @apply bg-gray-4 dark:bg-gray-8;
+}
+
+svg {
+    @apply h-5 w-5;
+}
+
